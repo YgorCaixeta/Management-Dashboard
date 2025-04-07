@@ -1,78 +1,115 @@
-?? Management Dashboard: Sales and Financial Performance Analysis
-Hey there! Iím Ygor Caixeta, and this is my Management Dashboard: Sales and Financial Performance Analysis project, which I built with a lot of passion for my data analyst portfolio. ?? If youíre here, you probably love data, Power BI, and want to see how I turned numbers into actionable insights for a fictional retail company. So, letís dive inóIíd love to show you what this project is all about!
+# üìä Management Dashboard: Sales and Financial Performance Analysis
 
-?? About the Project
+Hey there! I‚Äôm Ygor Caixeta, and this is my **Management Dashboard: Sales and Financial Performance Analysis** project, which I built with a lot of passion for my data analyst portfolio. üöÄ If you‚Äôre here, you probably love data, Power BI, and want to see how I turned numbers into actionable insights for a fictional retail company. So, let‚Äôs dive in‚ÄîI‚Äôd love to show you what this project is all about!
+
+
+## üåü About the Project
+
 This dashboard came to life because I wanted to tackle a real-world challenge: how can a retail company better understand its finances and make smarter decisions? I used Power BI to create an interactive dashboard that highlights key performance metrics like revenue, expenses, profit margins, and sales broken down by category, manufacturer, and segment. My goal was to turn raw data into something visual, easy to understand, and most importantly, useful for decision-making.
 
-Hereís what youíll find in the dashboard:
+Here‚Äôs what you‚Äôll find in the dashboard:
+- **Key KPIs**, like Profit Margin (39.96%), Total Revenue (1.92M), and Total Expenses (1.15M).
+- **Detailed Analysis**, such as sales by category (spoiler: Home Appliances lead with 53.8% of sales!) and average commission per salesperson.
+- **Interactivity**, with filters for year and month so you can explore the data dynamically.
 
-Key KPIs, like Profit Margin (39.96%), Total Revenue (1.92M), and Total Expenses (1.15M).
-Detailed Analysis, such as sales by category (spoiler: Home Appliances lead with 53.8% of sales!) and average commission per salesperson.
-Interactivity, with filters for year and month so you can explore the data dynamically.
-I wanted to create something thatís not just pretty to look at but also helps spot opportunities for improvementólike diversifying sales or optimizing costs.
+I wanted to create something that‚Äôs not just pretty to look at but also helps spot opportunities for improvement‚Äîlike diversifying sales or optimizing costs.
 
-?? Why I Built This Project
-Iím absolutely passionate about data and how it can tell stories and solve real problems. As a data analyst, my focus is always on turning numbers into strategic decisions. This project was a way for me to practice my Power BI skills while showcasing what I can do: from cleaning and modeling data to creating visualizations that make sense for a business.
+
+
+## üéØ Why I Built This Project
+
+I‚Äôm absolutely passionate about data and how it can tell stories and solve real problems. As a data analyst, my focus is always on turning numbers into strategic decisions. This project was a way for me to practice my Power BI skills while showcasing what I can do: from cleaning and modeling data to creating visualizations that make sense for a business.
 
 This dashboard is part of my portfolio for data analyst job applications. I wanted to demonstrate that I can:
+- Build interactive and visually appealing dashboards.
+- Extract actionable insights (e.g., ‚ÄúHome Appliances are the biggest revenue source, but marketing expenses are growing fast‚Äù).
+- Use tools like Power Query and DAX to work with data efficiently.
 
-Build interactive and visually appealing dashboards.
-Extract actionable insights (e.g., ìHome Appliances are the biggest revenue source, but marketing expenses are growing fastî).
-Use tools like Power Query and DAX to work with data efficiently.
-?? What Youíll Find in the Dashboard
-Hereís a sneak peek of what the dashboard offers:
 
-Profit Margin: A card showing the current profit margin (39.96%), highlighted in a soft green to emphasize positive performance.
-Total Revenue and Expenses: Overall figures to give you a quick snapshot of financial performance.
-Sales by Category: A pie chart showing that Home Appliances dominate sales, followed by Cell Phones and Small Appliances.
-Expenses by Category: A bar chart breaking down where the money is being spent (e.g., Administrative and Technology are the biggest expenses).
-Revenue by Quarter: A bar chart showing revenue trends throughout the year.
-Revenue and Expenses Table: A detailed breakdown by type (Sales, Licensing, etc.) and year (2019 to 2022).
-Average Commission per Salesperson: A chart highlighting top-performing salespeople (Josias Silva is killing it with a 2% average commission!).
-Example Insight:
-ìHome Appliances account for 53.8% of sales, which is great, but it also shows a heavy reliance on this category. It might be time to invest more in Small Appliances to diversify revenue.î
-??? How I Used Power BI
-Iíd love to share a bit about the process behind this dashboard because I think the ìhowî is just as important as the final result:
+## üìà What You‚Äôll Find in the Dashboard
 
-Data Cleaning and Transformation:
-I used Power Query to import the data, clean up inconsistencies, and organize the tables. For example, I merged sales and expenses tables to create a unified view.
-Data Modeling:
-I built a star schema with a fact table (sales and expenses) and dimension tables (categories, manufacturers, time). This ensured the filters worked smoothly.
-Creating DAX Measures:
-I used DAX to calculate the Profit Margin (Profit Margin = (SUM(Revenue) - SUM(Expenses)) / SUM(Revenue)) and other metrics, like total revenue by category.
-Design and Visualizations:
-I chose a professional color palette (blue for sales, red for expenses, green for profit) and adjusted the layout to be clean and intuitive.
-I added interactive filters (like Year and Month) so users can explore the data easily.
-?? How to Use the Dashboard
-If youíd like to explore the dashboard yourself, itís super easy:
+Here‚Äôs a sneak peek of what the dashboard offers:
 
-Download the .pbix File:
-The file is right here in the repository: .
-Open in Power BI Desktop:
-Youíll need Power BI Desktop installed (itís freeójust download it from Microsoftís website).
-Explore the Data:
-Use the ìYear, Monthî filters to view data from different periods.
-Click on the charts to interact (e.g., click on ìHome Appliancesî in the pie chart to see more details).
-If youíd rather not download the file, Iíve also included some screenshots in the repository so you can take a quick look. ??
+- **Profit Margin**: A card showing the current profit margin (39.96%), highlighted in a soft green to emphasize positive performance.
+- **Total Revenue and Expenses**: Overall figures to give you a quick snapshot of financial performance.
+- **Sales by Category**: A pie chart showing that Home Appliances dominate sales, followed by Cell Phones and Small Appliances.
+- **Expenses by Category**: A bar chart breaking down where the money is being spent (e.g., Administrative and Technology are the biggest expenses).
+- **Revenue by Quarter**: A bar chart showing revenue trends throughout the year.
+- **Revenue and Expenses Table**: A detailed breakdown by type (Sales, Licensing, etc.) and year (2019 to 2022).
+- **Average Commission per Salesperson**: A chart highlighting top-performing salespeople (Josias Silva is killing it with a 2% average commission!).
 
-?? What I Learned
-This project was an incredible journey for me! Here are some things I learned that Iím really proud of:
+### Example Insight:
+- ‚ÄúHome Appliances account for 53.8% of sales, which is great, but it also shows a heavy reliance on this category. It might be time to invest more in Small Appliances to diversify revenue.‚Äù
 
-Power BI from Scratch to Dashboard: I learned how to use Power BI from importing data to creating interactive visualizations.
-Storytelling with Data: I discovered how to turn numbers into meaningful stories, like suggesting actions based on insights.
-Design and Usability: I improved my design skills, tweaking colors, fonts, and layout to create a dashboard thatís both beautiful and functional.
-DAX and Modeling: I got more comfortable with DAX and data modeling, which gave me confidence to tackle more complex projects.
-?? How This Project Can Evolve
-I know thereís always room for improvement, and I already have some ideas for the future:
 
-Add a line chart to show sales trends over time.
-Include a Pareto analysis to identify which categories or manufacturers account for 80% of sales.
-Create custom tooltips to show more details when hovering over charts.
-If you have any suggestions or feedback, Iíd love to hear from you! Feel free to message me or open an issue here on GitHub. ??
 
-?? Get in Touch
+## üõ†Ô∏è How I Used Power BI
+
+I‚Äôd love to share a bit about the process behind this dashboard because I think the ‚Äúhow‚Äù is just as important as the final result:
+
+1. **Data Cleaning and Transformation**:
+   - I used **Power Query** to import the data, clean up inconsistencies, and organize the tables. For example, I merged sales and expenses tables to create a unified view.
+
+2. **Data Modeling**:
+   - I built a star schema with a fact table (sales and expenses) and dimension tables (categories, manufacturers, time). This ensured the filters worked smoothly.
+
+3. **Creating DAX Measures**:
+   - I used DAX to calculate the Profit Margin (`Profit Margin = (SUM(Revenue) - SUM(Expenses)) / SUM(Revenue)`) and other metrics, like total revenue by category.
+
+4. **Design and Visualizations**:
+   - I chose a professional color palette (blue for sales, red for expenses, green for profit) and adjusted the layout to be clean and intuitive.
+   - I added interactive filters (like Year and Month) so users can explore the data easily.
+
+
+## üöÄ How to Use the Dashboard
+
+If you‚Äôd like to explore the dashboard yourself, it‚Äôs super easy:
+1. **Download the .pbix File**:
+   - The file is right here in the repository: [Management_Dashboard_Audacity.pbix](Management_Dashboard_Audacity.pbix).
+2. **Open in Power BI Desktop**:
+   - You‚Äôll need Power BI Desktop installed (it‚Äôs free‚Äîjust download it from Microsoft‚Äôs website).
+3. **Explore the Data**:
+   - Use the ‚ÄúYear, Month‚Äù filters to view data from different periods.
+   - Click on the charts to interact (e.g., click on ‚ÄúHome Appliances‚Äù in the pie chart to see more details).
+
+If you‚Äôd rather not download the file, I‚Äôve also included some screenshots in the repository so you can take a quick look. üòä
+
+
+
+## üí° What I Learned
+
+This project was an incredible journey for me! Here are some things I learned that I‚Äôm really proud of:
+- **Power BI from Scratch to Dashboard**: I learned how to use Power BI from importing data to creating interactive visualizations.
+- **Storytelling with Data**: I discovered how to turn numbers into meaningful stories, like suggesting actions based on insights.
+- **Design and Usability**: I improved my design skills, tweaking colors, fonts, and layout to create a dashboard that‚Äôs both beautiful and functional.
+- **DAX and Modeling**: I got more comfortable with DAX and data modeling, which gave me confidence to tackle more complex projects.
+
+
+## üå± How This Project Can Evolve
+
+I know there‚Äôs always room for improvement, and I already have some ideas for the future:
+- Add a line chart to show sales trends over time.
+- Include a Pareto analysis to identify which categories or manufacturers account for 80% of sales.
+- Create custom tooltips to show more details when hovering over charts.
+
+If you have any suggestions or feedback, I‚Äôd love to hear from you! Feel free to message me or open an issue here on GitHub. üòä
+
+
+
+## üì¨ Get in Touch
+
 If you liked the project or want to chat about data analysis, Power BI, or anything else, you can find me here:
+- **LinkedIn**: [Ygor Caixeta](https://www.linkedin.com/in/ygor-de-freitas-caixeta-a0soowkskso/)
+- **Email**: [ygorcaixeta@gmail.com](mailto:ygorcaixeta@gmail.com)
 
-LinkedIn: Ygor Caixeta
-Email: ygorcaixeta@gmail.com
-This project is a small sample of what I can do as a data analyst. Iím excited to keep learning, grow in this field, and help companies make better decisions with data. Thanks for checking out my work! ??
+This project is a small sample of what I can do as a data analyst. I‚Äôm excited to keep learning, grow in this field, and help companies make better decisions with data. Thanks for checking out my work! üíô
+
+---
+
+## üñºÔ∏è Screenshots
+
+Here‚Äôs a preview of the dashboard:
+
+![Management Dashboard](screenshots/dashboard-preview.png)
+
+*(You can add more screenshots or even a GIF to show the dashboard‚Äôs interactivity!)*
