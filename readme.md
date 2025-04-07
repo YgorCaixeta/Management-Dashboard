@@ -104,12 +104,3 @@ If you liked the project or want to chat about data analysis, Power BI, or anyth
 
 This project is a small sample of what I can do as a data analyst. I’m excited to keep learning, grow in this field, and help companies make better decisions with data. Thanks for checking out my work! 💙
 
----
-
-## 🖼️ Screenshots
-
-Here’s a preview of the dashboard:
-
-![Management Dashboard](screenshots/dashboard-preview.png)
-
-*(You can add more screenshots or even a GIF to show the dashboard’s interactivity!)*
